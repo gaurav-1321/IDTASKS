@@ -1,0 +1,56 @@
+body{
+    background-image: url('wallpaper3.jpg');
+    
+   
+}
+.main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+
+}
+h3,h1{
+    font-size: 60px;
+    color:whitesmoke;
+    margin:20px ;
+
+    
+}
+
+.over{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+.col{
+    width:80%;
+    height: 140px;
+   
+    margin:10px auto;
+    display:flex;
+ justify-content: center;
+    color:white;
+    
+
+}
+.col div{
+    margin-top: 10px;
+    width: 250px;
+text-align: center;
+}
+input{
+    
+    width:50%;
+    height:40%;
+    border-radius: 10px;
+    background-color:white;
+    border-color:transparent;
+    font-size: 25px;
+}
+label{
+    font-size: 20px;
+    font-family:monospace;
+    text-align: center;
+}
